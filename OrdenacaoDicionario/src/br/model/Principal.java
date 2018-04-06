@@ -22,7 +22,7 @@ public class Principal {
 			// de repetição atingir o final do arquivo texto
 			int tamVetor = Integer.parseInt(linha);
 			vetor = new String[tamVetor];
-			
+			//carlos 
 			while (linha != null && i < tamVetor) {
 				linha = lerArq.readLine();
 				vetor[i] = linha;
